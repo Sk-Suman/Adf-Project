@@ -2,7 +2,7 @@
 	"name": "dataset_source_adls",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ls_source_1_AzureDataLakeStorage1",
+			"referenceName": "ls_source_AzureDataLakeStorageo",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
@@ -28,6 +28,5 @@
 			"quoteChar": "\""
 		},
 		"schema": []
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }

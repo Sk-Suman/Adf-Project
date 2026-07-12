@@ -1,8 +1,8 @@
 {
-	"name": "dataset_getmetadata_con1",
+	"name": "dataset_getmetadata_Adls",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ls_getmetadaaa_AzureDataLakeStorage1",
+			"referenceName": "ls_getmetatdata_AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -19,6 +19,5 @@
 			"quoteChar": "\""
 		},
 		"schema": []
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }
