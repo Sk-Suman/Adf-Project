@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "data-adf-ws"
+		},
+		"link_s_sink_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_getmetadaaa_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_getmetatdata_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_sink_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_source_1_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_source_AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"ls_source_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_source_AzureDataLakeStorageo_accountKey": {
+			"value": ""
+		},
+		"link_s_sink_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		},
+		"ls_AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://Azure-SQL-credential.vault.azure.net/"
+		},
+		"ls_getmetadaaa_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		},
+		"ls_getmetatdata_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		},
+		"ls_sink_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		},
+		"ls_sink_AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "server-suman-host.database.windows.net"
+		},
+		"ls_sink_AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "db-Suman-database"
+		},
+		"ls_sink_AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "suman"
+		},
+		"ls_source_1_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		},
+		"ls_source_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		},
+		"ls_source_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		},
+		"ls_source_AzureDataLakeStorageo_properties_typeProperties_url": {
+			"value": "https://stgsumanstore.dfs.core.windows.net/"
+		}
+	}
+}
